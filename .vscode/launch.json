@@ -1,0 +1,16 @@
+{
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Launch QEMU",
+            "program": "${workspaceFolder}/build/riscv-project.elf",
+            "cwd": "${workspaceFolder}",
+            "miDebuggerServerAddress": "localhost:1234",
+            "miDebuggerPath": "gdb",
+            "stopAtEntry": true,
+            // "preLaunchTask": "Run QEMU"
+        },
+    ]
+}
